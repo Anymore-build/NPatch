@@ -20,7 +20,7 @@ CI构建版本→请前往[Github Actions](https://github.com/HSSkyBoy/NPatch/ac
 ## User
 
 + 通过应用程序
-1. 下载并安装`*.apk`在你的安卓(或鸿蒙)设备上
+1. 下载并安装`*.apk`在你的安卓(或基于安卓的鸿蒙)设备上
 2. 按照应用的方式使用
 
 ## Star Number
