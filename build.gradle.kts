@@ -44,19 +44,19 @@ val (coreCommitCount, coreLatestTag) = FileRepositoryBuilder().setGitDir(rootPro
     }.getOrNull() ?: (1 to "1.0")
 
 // sync from OPatch
-val defaultManagerPackageName by extra("org.lsposed.opatch")
+val defaultManagerPackageName by extra("org.lsposed.lspatch")
 val apiCode by extra(93)
 val verCode by extra(429)
 val verName by extra("0.6.1")
 val coreVerCode by extra(coreCommitCount)
 val coreVerName by extra(coreLatestTag)
 val androidMinSdkVersion by extra(28)
-val androidTargetSdkVersion by extra(34)
-val androidCompileSdkVersion by extra(34)
+val androidTargetSdkVersion by extra(35)
+val androidCompileSdkVersion by extra(35)
 val androidCompileNdkVersion by extra("25.2.9519653")
-val androidBuildToolsVersion by extra("34.0.0")
-val androidSourceCompatibility by extra(JavaVersion.VERSION_21)
-val androidTargetCompatibility by extra(JavaVersion.VERSION_21)
+val androidBuildToolsVersion by extra("35.0.2")
+val androidSourceCompatibility by extra(JavaVersion.VERSION_17)
+val androidTargetCompatibility by extra(JavaVersion.VERSION_17)
 
 tasks.register<Delete>("clean") {
     delete(rootProject.buildDir)
