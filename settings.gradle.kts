@@ -45,6 +45,8 @@ include(
     ":services:xposed-service:interface",
     ":share:android",
     ":share:java",
+    ":app",
+    ":libxposed"
 )
 
 project(":core").projectDir = file("core/core")
