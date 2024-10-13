@@ -19,6 +19,7 @@ buildscript {
     dependencies {
         classpath("org.eclipse.jgit:org.eclipse.jgit:6.3.0.202209071007-r")
         classpath(kotlin("gradle-plugin", version = "1.8.21"))
+        implementation("io.github.libxposed:libxposed-api:100")
     }
 }
 
@@ -45,9 +46,9 @@ val (coreCommitCount, coreLatestTag) = FileRepositoryBuilder().setGitDir(rootPro
 
 // sync from OPatch
 val defaultManagerPackageName by extra("org.lsposed.lspatch")
-val apiCode by extra(93)
-val verCode by extra(429)
-val verName by extra("0.6.1")
+val apiCode by extra(100)
+val verCode by extra(430)
+val verName by extra("0.6.2")
 val coreVerCode by extra(coreCommitCount)
 val coreVerName by extra(coreLatestTag)
 val androidMinSdkVersion by extra(28)
