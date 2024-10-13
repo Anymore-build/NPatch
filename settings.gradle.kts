@@ -44,13 +44,10 @@ include(
     ":services:manager-service",
     ":services:xposed-service:interface",
     ":share:android",
-    ":share:java",
-    ":app",
-    ":libxposed"
+    ":share:java"
 )
 
 project(":core").projectDir = file("core/core")
-project(":libxposed").projectDir = file("libxposed/api")
 project(":hiddenapi:bridge").projectDir = file("core/hiddenapi/bridge")
 project(":hiddenapi:stubs").projectDir = file("core/hiddenapi/stubs")
 project(":services:daemon-service").projectDir = file("core/services/daemon-service")
