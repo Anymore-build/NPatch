@@ -8,7 +8,7 @@
 [submodule "core"]
 	path = core
 	url = https://github.com/re-zero001/LSPosed-Irena.git
-        branch = dev
+        branch = 120cc878bc2888cbdc32d850719c7dbe4807b6a2
 [submodule "libxposed/api"]
 	path = libxposed/api
 	url = https://github.com/libxposed/api
